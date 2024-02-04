@@ -7,6 +7,6 @@ Turtorials followed up until now:
 - [Kubernetes Basics Tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 - [Helm Introduction](https://helm.sh/docs/intro/quickstart/)
 
-Architecture:
+Current architecture:
 
 
