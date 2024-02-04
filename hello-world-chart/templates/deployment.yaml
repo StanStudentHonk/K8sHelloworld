@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.deployments.helloWorld.name}}
+  labels:
+    app: {{ .Values.deployments.helloWorld.app}}
+spec:
+  replicas: {{ .Values.deployments.helloWorld.replicas}}
+  selector:
+    matchLabels:
+      app: {{ .Values.deployments.helloWorld.app}}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.deployments.helloWorld.app}}
+    spec:
+      containers:
+      - image: {{ printf "%s/%s" .Values.docker.imageRegistry .Values.docker.images.helloWorldPython.tag }}
+        imagePullPolicy: Always
+        name: python-hello-world
+      imagePullSecrets:
+      - name: {{ .Values.docker.pullSecret}}

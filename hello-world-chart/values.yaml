@@ -1,0 +1,21 @@
+docker:
+  imageRegistry: staneman
+  pullSecret: docker-cred
+  images:
+    helloWorldPython:
+      tag: hello-world-python:6.0
+
+deployments:
+  helloWorld:
+    name: hello-world
+    replicas: 2
+    app: hello-world
+
+services:
+  helloWorld:
+    name: hello-world
+    app: hello-world
+    port: 80
+    targetPort: 5000
+    nodePort: 30007
+
