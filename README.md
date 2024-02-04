@@ -1,6 +1,9 @@
-This is my Kubernetes hello world project. In this project i apply the skills i have learned in the turtorial that i have followed.
+# Kubernetes Hello World Project
 
-Turturials followed up until now:
+Welcome to my Kubernetes hello world project, where I apply the skills acquired through tutorials. This project serves as a practical application of the knowledge gained, particularly from the following tutorials:
 
-The full Kubernetes basics turturial: https://kubernetes.io/docs/tutorials/kubernetes-basics/
-The full helm introductio: https://helm.sh/docs/intro/quickstart/
+- [Kubernetes Basics Tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Helm Introduction](https://helm.sh/docs/intro/quickstart/)
+
+Feel free to explore these tutorials for a comprehensive understanding of Kubernetes fundamentals and Helm usage.
+
