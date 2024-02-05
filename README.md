@@ -10,3 +10,5 @@ Turtorials followed up until now:
 Current architecture:
 
 
+
+![architecturek8sHelloworld drawio](https://github.com/StanStudentHonk/K8sHelloworld/assets/74409816/732f4810-230d-457f-b077-b3dbf3c0313d)
